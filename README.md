@@ -8,18 +8,6 @@ GuardianKey is a simple password manager that allows users to securely store and
 - **Easy Access**: Users can easily retrieve their stored credentials when needed.
 - **Clipboard Copy**: GuardianKey enables users to copy usernames and passwords to the clipboard for convenient login.
 
-## Usage
-
-1. Run the GuardianKey password manager:
-   ```
-   python guardiankey.py
-   ```
-
-2. Follow the on-screen instructions to:
-   - Add new credentials
-   - View existing credentials
-   - Copy usernames and passwords to the clipboard
-
 
 ## Contributing
 
