@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GuardianKey - Safeguarding your digital secrets</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">GuardianKey</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#passtable">Your Passwords</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#contact">Contact Us </a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <nav id="hamburger-nav">
+      <div class="logo">GuardianKey</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#home" onclick="toggleMenu()">Home</a></li>
+          <li>
+            <a href="#passtable" onclick="toggleMenu()">Your Passwords</a>
+          </li>
+          <li><a href="#about" onclick="toggleMenu()">About Us</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact us</a></li>
+        </div>
+      </div>
+    </nav>
+
+    <section id="home">
+      <div class="container">
+        <form action="" method="post">
+          <h2>Login</h2>
+          <div class="input-group">
+            <label for="website">Website:</label>
+            <input type="text" id="website" name="website" required />
+          </div>
+          <div class="input-group">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required />
+          </div>
+          <div class="input-group">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required />
+          </div>
+          <button class="btn-save" type="submit">Save</button>
+        </form>
+      </div>
+    </section>
+
+    <section id="pop">
+      <div id="popup" class="popup"></div>
+    </section>
+
+    <section id="passtable">
+      <div class="container-table">
+        <h2>Your Passwords</h2>
+        <table class="password-table">
+          <thead>
+            <tr>
+              <th>Website Name</th>
+              <th>Username</th>
+              <th>Password</th>
+              <th>Delete</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Us</h1>
+      <div class="section-container">
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="text-container">
+              <p>
+                At GuardianKey, we are dedicated to safeguarding your digital
+                secrets with utmost security and reliability. Our mission is to
+                provide a trusted password management solution that empowers
+                users to manage their online identities with peace of mind. With
+                a focus on user privacy and data protection, we strive to
+                deliver innovative tools and services that streamline password
+                management while ensuring the highest standards of security.
+                Trust GuardianKey to protect your digital footprint and enhance
+                your online security experience.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Us</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin_light.png"
+            alt="My LinkedIn profile"
+            class="icon contact-icon"
+          />
+          <p>
+            <a href="https://www.linkedin.com/in/chinmay-damle-404a8b258/"
+              >LinkedIn</a
+            >
+          </p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/email_light.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p>
+            <a href="mailto:chinmaydamle96@gmail.com"
+              >chinmaydamle96@gmail.com</a
+            >
+          </p>
+        </div>
+
+        <div class="contact-info-container">
+          <img
+            src="./assets/github_light.png"
+            alt="My LinkedIn profile"
+            class="icon contact-icon"
+          />
+          <p>
+            <a href="https://github.com/ChinmayDamle"
+              >Github</a
+            >
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#passtable">Your Passwords</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact Us </a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 Chinmay Damle. All Rights Reserved.</p>
+    </footer>
+  </body>
+</html>
