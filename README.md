@@ -13,10 +13,6 @@ GuardianKey is a simple password manager that allows users to securely store and
 
 Contributions to GuardianKey are welcome! If you have any suggestions, bug fixes, or improvements, feel free to open an issue or submit a pull request.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
 ## Author
 
 Chinmay Damle
